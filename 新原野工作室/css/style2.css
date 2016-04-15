@@ -1,0 +1,27 @@
+*{zoom:1}
+		.fullSlide{ position:relative; background:#000; margin:0 auto;top:52px}
+		.fullSlide .bd{ position:relative; z-index:0; }
+		.fullSlide .bd li img{width:100%; vertical-align:top;  } 
+		.fullSlide .hd{position:relative; z-index:1; margin-top:-30px; height:30px; line-height:30px;  text-align:center;
+			 background:#000; filter:alpha(opacity=60);opacity:0.6 
+		}
+		.fullSlide .hd ul{ text-align:center;  padding-top:5px;  }
+		.fullSlide .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:8px; height:8px; margin:5px; background:url(images/tg_flash_p.png) -18px 0; overflow:hidden; 
+			font-size:0;
+		}
+		.fullSlide .hd ul .on{ background-position:0 0; }
+		.fullSlide .prev,.fullSlide .next{ z-index:1; display:block; width:55px; height:55px; position:relative; margin:-27% 0 0 3%; float:left;  background:url(images/arrow.png) 0 0 no-repeat; filter:alpha(opacity=40);opacity:0.4  }
+		.fullSlide .next{  background-position:right 0; float:right; margin-right:3%  }
+		.fullSlide .prev:hover,.fullSlide .next:hover{ filter:alpha(opacity=80);opacity:0.8 }
+
+.service_02{border: 2px dashed #eee;height: 350px;}
+.erweima{
+  /*background-image: url(../img/erweima.jpg);  
+  background-repeat: no-repeat;*/
+ padding:0;
+ max-width: 100%;
+ text-align: center;
+}
+.textcenter{text-align: center;}
+#btn{margin: 20px;}
+
